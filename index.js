@@ -37,4 +37,4 @@ function iLoveTheBeatles(num) {
   } while (i <= num - 1);
   return beatlesLove;
 }
-iLoveTheBeatles(6);
+iLoveTheBeatles();
