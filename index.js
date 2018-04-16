@@ -1,4 +1,5 @@
 function theBeatlesPlay(musician, instrument) {
+  // empty array //
   var beatles = [];
   var play = '';
   for (var i = 0; i <= musician.length - 1; i++) {
