@@ -34,7 +34,7 @@ function iLoveTheBeatles(num) {
   do{
    i++;
    beatlesLove.push('I love the Beatles!');
-  } while (i <= num - 1);
+  } while (i < num - 1);
   return beatlesLove;
 }
 iLoveTheBeatles(6);
