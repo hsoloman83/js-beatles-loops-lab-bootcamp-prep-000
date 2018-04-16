@@ -1,7 +1,9 @@
-function theBeatlesPlay(musicians, instruments){
-  for (let i = 0; i < 25; i++){
-    if (i === 0) {
-    array.push("I am 1 strange loop.")
-    }
+function theBeatlesPlay(musician, instr) {
+  var beatles = [];
+  var play = '';
+  for (var i = 0; i <= musician.length - 1; i++) {
+    play = musician[i] + ' plays ' + instr[i];
+    beatlesArr.push(play);
   }
+  return beatles;
 }
