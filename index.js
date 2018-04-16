@@ -26,7 +26,7 @@ function johnLennonFacts(fact){
 }
 
 function iLoveTheBeatles(num){
-  if(num > 16) return 'I love the Beatles!';
+  if(num > 14) return 'I love the Beatles!';
   
   var i = 0;
   var beatlesLove = [];
